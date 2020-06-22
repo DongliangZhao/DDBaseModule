@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'DDBaseModule'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of DDBaseModule.'
+  s.summary          = 'DDBaseModule.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,14 +18,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+DDBaseModule 是一个基础库，包括一些常用的宏和分类
                        DESC
 
-  s.homepage         = 'https://github.com/821091230@qq.com/DDBaseModule'
+  s.homepage         = 'https://github.com/DongliangZhao/DDBaseModule'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '821091230@qq.com' => '821091230@qq.com' }
-  s.source           = { :git => 'https://github.com/821091230@qq.com/DDBaseModule.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/DongliangZhao/DDBaseModule.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
