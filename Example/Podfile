@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'DDBaseModule_Example' do
+  pod 'DDBaseModule', :path => '../'
+
+  target 'DDBaseModule_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
